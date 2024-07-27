@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/icon_home_24px"
+        android:title="Home" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@drawable/icon_person_24px"
+        android:title="Profile" />
+
+    <item
+        android:id="@+id/shoppingCartFragment"
+        android:icon="@drawable/icon_shopping_cart_24px"
+        android:title="Cart" />
+</menu>

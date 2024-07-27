@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/auth_nav_graph"
+    app:startDestination="@id/signInUpOptionFragment">
+
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="com.example.ecommercetask.presentation.sign_in.SignInFragment"
+        android:label="SignInFragment"
+        tools:layout="@layout/fragment_sign_in"/>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="com.example.ecommercetask.presentation.sign_up.SignUpFragment"
+        android:label="SignUpFragment"
+        tools:layout="@layout/fragment_sign_up"/>
+    <fragment
+        android:id="@+id/signInUpOptionFragment"
+        android:name="com.example.ecommercetask.presentation.SignInUpOptionFragment"
+        android:label="SignInUpOptionFragment"
+        tools:layout="@layout/fragment_sign_in_up_option"/>
+</navigation>
